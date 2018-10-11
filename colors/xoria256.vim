@@ -69,16 +69,16 @@ highlight Search                   guifg=#000000             guibg=#afdf5f
 highlight SignColumn               guifg=#a8a8a8
 highlight SpecialKey               guifg=#5fdf5f
 highlight SpellBad                 guifg=fg                  guibg=#df0000
-highlight SpellCap                 guifg=#dfdfff             guibg=bg                      gui=underline
-highlight SpellRare                guifg=#df5f87             guibg=bg                      gui=underline
-highlight SpellLocal               guifg=#875fdf             guibg=bg                      gui=underline
+highlight SpellCap                 guifg=#dfdfff             guibg=bg                 gui=underline
+highlight SpellRare                guifg=#df5f87             guibg=bg                 gui=underline
+highlight SpellLocal               guifg=#875fdf             guibg=bg                 gui=underline
 highlight StatusLine               guifg=#ffffff             guibg=#4e4e4e            gui=bold
 highlight StatusLineNC             guifg=#b2b2b2             guibg=#3a3a3a            gui=none
 highlight TabLine                  guifg=fg                  guibg=#666666            gui=none
 highlight TabLineFill              guifg=fg                  guibg=#3a3a3a            gui=none
 highlight Title                    guifg=#e0b0e0
 highlight Todo                     guifg=#000000             guibg=#a0a000
-highlight Underlined               guifg=#00afff                                           gui=underline
+highlight Underlined               guifg=#00afff                                      gui=underline
 highlight VertSplit                guifg=#3a3a3a             guibg=#3a3a3a            gui=none
 highlight VIsualNOS                guifg=#005f87             guibg=#afdfff            gui=none
 
@@ -127,13 +127,13 @@ highlight htmlValue	             guifg=#dfdfaf
 " hi pythonExceptions
 
 """ NERDTree {{{3
-highlight Directory                   guifg=#87afdf
-highlight treeCWD                     guifg=#dfaf87
-highlight treeClosable                guifg=#df8787
-highlight treeOpenable                guifg=#afdf87
-highlight treePart                    guifg=#808080
-highlight treeDirSlash                guifg=#808080
-highlight treeLink                    guifg=#dfafdf
+highlight Directory              guifg=#87afdf
+highlight treeCWD                guifg=#dfaf87
+highlight treeClosable           guifg=#df8787
+highlight treeOpenable           guifg=#afdf87
+highlight treePart               guifg=#808080
+highlight treeDirSlash           guifg=#808080
+highlight treeLink               guifg=#dfafdf
 
 """ VimDebug {{{3
 
